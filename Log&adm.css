@@ -5,6 +5,8 @@ body{
     background-size: cover;
     margin: 0;
     padding: 0;
+    
+   
 }
 .login{
     border: 1px solid whitesmoke;
@@ -14,6 +16,7 @@ body{
     padding: auto;
     /* max-width: 40%; */
     height: 700px;
+   
     
 }
 .login h1{
@@ -36,7 +39,7 @@ form{
 }
 .login input{
     height: 40px;
-    width: 400px;
+    width: 350px;
     padding: 2%;
     margin: 2%;;
     text-align: center;
@@ -44,7 +47,7 @@ form{
     text-transform: capitalize;
     font-weight: bold;
     /*outline: none;*/
-    background: aqua;
+    background: edf6f9a;
     /* border: none1 px solid blanchedalmond;  */
     /* position: relative;  */
 }
@@ -112,6 +115,6 @@ form a:hover{
     height: 150px;
     width: 150px;
     border-radius: 50%;
-    border: 1px solid black;
+    border: 1px solid edf6f9;
   }
   

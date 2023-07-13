@@ -106,7 +106,7 @@ section #text:hover{
 .second{
     /* position: relative; */
     padding: 20px;
-    background: cadetblue;
+    background: black;
     min-height: 100vh;
 }
 .second h1{
@@ -138,7 +138,7 @@ section #text:hover{
 .third h1{
     font-size:35px;
     margin:20px 20px;
-    color: blue;
+    color: black;
     font-family: 'Rancho', cursive;
     text-align: center;
     font-weight: 400;
@@ -157,10 +157,11 @@ section #text:hover{
 
   .card a {
     padding: 12px;
-    color: white;
-    background-color: #000;
+    color: black;
+    background-color: whitesmoke;
     text-align: center;
     font-size: 18px;
+  
   }
   .card a:hover {
     opacity: 0.7;

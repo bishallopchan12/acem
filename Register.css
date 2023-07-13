@@ -1,7 +1,7 @@
 
 body{
 
-    /* background-image:url("./Images/acem.jpg"); */
+    background-image:url("./Images/acem.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -33,8 +33,8 @@ body{
     text-transform: capitalize;
     font-weight: bold;
     /*outline: none;*/
-    background:whitesmoke;
-    border: 1px solid black; 
+    /* background:whitesmoke; */
+    border: 0.5px solid black; 
     position: relative; 
 
 
@@ -95,6 +95,6 @@ form button:hover{
     height: 150px;
     width: 150px;
     border-radius: 50%;
-    border: 1px solid black;
+    border: 1px solid whitesmoke;
   }
    

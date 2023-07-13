@@ -73,12 +73,12 @@ if(isset($_POST['submit'])){
     $select="select * from register where Email='$Email' and Password='$Password'and DOB='$DOB'";
     $run=mysqli_query($conn,$select);
     
-    // $row_user=mysqli_num_rows($run);
+    $row_user=mysqli_num_rows($run);
       $row_user=mysqli_fetch_array($run);
-    //   $dbEmail=$row_user['Email'];
-    //   $dbDOB=$row_user['DOB'];
-    //   $dbVoted=$row_user['Voted'];
-    //   $dbPassword=$row_user['Password'];
+      $dbEmail=$row_user['Email'];
+      $dbDOB=$row_user['DOB'];
+      $dbVoted=$row_user['Voted'];
+      $dbPassword=$row_user['Password'];
 
       if(is_array($row_user)){//$Email==$dbEmail && $Password==$dbPassword
           echo "<script> window.open('LoginSuccess.php','_self') </script>";

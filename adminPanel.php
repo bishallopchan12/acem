@@ -154,7 +154,7 @@
       <button type="reset" class="btn btn-primary" style="float: right;width: 120px;">Reset</button>
     </form>
 
-    <!-- ==========form PHP=========== Nominee ADD=================== -->
+    
 
     <?php
     // $conn = mysqli_connect("localhost", "root", "", "voting_system");
@@ -165,9 +165,7 @@
     if (isset($_POST['submit'])) {
       $FullName = $_POST['FullName'];
       $PartyName = $_POST['PartyName'];
-      // echo "<pre>";
-      // print_r($_FILES['Image']);
-      // echo "</pre>";
+      
       $Image = $_FILES['Image']['name'];
       $tmp_name = $_FILES['Image']['tmp_name'];
       $details=$_POST['details'];
@@ -180,11 +178,11 @@
         echo "<H5 style='color:green;text-align:center;'>Successfully Inseted</h5>";
         move_uploaded_file($tmp_name, "upload/$Image");
       } else {
-        echo "<H5 style='color:red;text-align:center;'>Not Inseted Alredy Added</h5>"; //.mysqli_error($conn)
+        echo "<H5 style='color:red;text-align:center;'>Not Inseted Alredy Added</h5>";
       }
     }
     ?>
-    <!-- ==========form PHP============================== -->
+   
 
   </div>
 
