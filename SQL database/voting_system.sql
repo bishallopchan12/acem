@@ -38,8 +38,7 @@ CREATE TABLE `admin` (
 --
 
 INSERT INTO `admin` (`FullName`, `Username`, `Password`) VALUES
-('kushal verma', 'Kushal@admin.com', 'Admin'),
-('Lokendra rajput', 'Lokendra@admin.com', 'Admin');
+('Bishal Lama', 'bshallama16@gmail.com', 'Admin');
 
 -- --------------------------------------------------------
 
@@ -60,10 +59,7 @@ CREATE TABLE `nominee` (
 --
 
 INSERT INTO `nominee` (`FullName`, `PartyName`, `Image`, `Votes`, `Status`) VALUES
-('Apple', 'SWIFT', 'ios.png', 1, 'ON'),
-('C', 'microsoft', 'microsoft.jpg', 0, 'OFF'),
-('C/C++', 'linux', 'linux.jpg', 0, 'OFF'),
-('JAVA', 'android', 'android1.png', 0, 'OFF');
+();
 
 -- --------------------------------------------------------
 
@@ -86,10 +82,7 @@ CREATE TABLE `register` (
 --
 
 INSERT INTO `register` (`FullName`, `MobileNo`, `Email`, `DOB`, `Password`, `Status`, `Voted`) VALUES
-('anuj jain', 1111625455, 'aj@rock.com', '2000-04-02', '12345', 'ON', 'NO'),
-('Abhishek Nagre', 1245352514, 'an@rock.com', '2000-05-08', '12345', 'ON', 'YES'),
-('lokendra Rajput', 9575210508, 'lok@rock.com', '2000-12-08', '12345', 'ON', 'YES'),
-('siddhant', 1245352514, 'sk@admin.com', '2000-05-08', '12345', 'ON', 'NO');
+();
 
 --
 -- Indexes for dumped tables

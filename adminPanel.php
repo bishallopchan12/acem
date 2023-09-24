@@ -55,7 +55,7 @@
           <div class="card1">
             <div class="card-body">
               <div class="d-flex flex-column align-items-center text-center">
-                <img src="./upload/bishal.jpg" alt="Admin" class="rounded-circle" width="150">
+                <img src="./Images/bishal.jpg" alt="Admin" class="rounded-circle" width="150">
                 <div class="mt-3">
                   <h4 style="text-transform: capitalize;"><?php echo $FullName; ?></h4>
                   <p class="text-secondary mb-1">Beginner</p>
@@ -175,10 +175,10 @@
       $run = mysqli_query($conn, $insert);
       echo "Hello";
       if ($run === true) {
-        echo "<H5 style='color:green;text-align:center;'>Successfully Inseted</h5>";
-        move_uploaded_file($tmp_name, "upload/$Image");
+        echo "<H5 style='color:green;text-align:center;'>Successfully Inserted</h5>";
+        move_uploaded_file($tmp_name, "Images/$Image");
       } else {
-        echo "<H5 style='color:red;text-align:center;'>Not Inseted Alredy Added</h5>";
+        echo "<H5 style='color:red;text-align:center;'>Not Inserted Already Added</h5>";
       }
     }
     ?>

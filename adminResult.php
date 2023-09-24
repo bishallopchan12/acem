@@ -77,7 +77,7 @@
                         <td><?php echo $FullName; ?></td>
                         <td><?php echo $PartyName; ?></td>
                         <td><?php echo $Votes; ?></td>
-                        <td><img src="upload/<?php echo $Image; ?>" style="width: 100px;height: 100px; border-radius: 50%;"></td>
+                        <td><img src="Images/<?php echo $Image; ?>" style="width: 100px;height: 100px; border-radius: 50%;"></td>
                         <td><?php echo $Status; ?></td>
                         <td><a href="adminResult.php?dcl=<?php echo $PartyName ?>" class="btn btn-primary" title="Declared"><i class="fa fa-bullhorn"></i></a>
                             <a href="adminResult.php?udcl=<?php echo $PartyName ?>" class="btn btn-danger" title="UnDeclared"><i class="fas fa-trash-alt"></i></a>

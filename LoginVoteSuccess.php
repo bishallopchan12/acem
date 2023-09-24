@@ -19,7 +19,7 @@
   }
 </style>
 <body style="background-color: aqua;">
-<img src="./Images/Thankyou.png" alt="ThankYou">
+<!-- <img src="./Images/thanks.png" alt="ThankYou"> -->
     <?php include "Loginnav.php"; ?>
     <center >
         

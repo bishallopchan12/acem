@@ -40,7 +40,7 @@ $Voted = $row_user['Voted'];
 <div class="space">
     <div class="card">
       <center>
-        <img src="" alt="Admin" class="rounded-circle" width="150">
+        <img src="Images/" alt="Admin" class="rounded-circle" width="150">
       </center>
       <div class="card-body">
         <h6 class="card-title">Name : <?php echo $FullName; ?></h6>

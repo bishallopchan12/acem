@@ -35,7 +35,7 @@
         }
         ?>
         <form action="" method="POST" enctype="multipart/form-data">
-            <img src="upload/<?php echo $eImage; ?>" alt="Admin" class="rounded-circle" width="150"><br>
+            <img src="Images/<?php echo $eImage; ?>" alt="Admin" class="rounded-circle" width="150"><br>
             <input type="text" name="FullName" value="<?php echo $edit_FullName; ?>" required placeholder="Enter Full Name">
             <input type="text" name="PartyName" value="<?php echo $ePartyName; ?>" required placeholder="Enter Party Name"><br>
             <input type="file" name="Image" value="<?php echo $eImage; ?>" accept="image/*"> <br>
@@ -59,7 +59,7 @@
         $run_update = mysqli_query($conn, $update);
         if ($run_update === true) {
             echo "<H5 style='color:green;text-align:center;'>Successfully Updated</h5>";
-            move_uploaded_file($tmp_name, "upload/$Image");
+            move_uploaded_file($tmp_name, "Images/$Image");
         } else {
             echo "<center><H5 style='color:red;text-align:center;'>Not Inseted</h5></center>" . mysqli_error($conn);
         }

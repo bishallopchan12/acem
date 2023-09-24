@@ -79,7 +79,7 @@ if($ePassword==$eRePassword){
    if($run_update===true){
        echo "<H5 style='color:green;text-align:center;'>Successfully Updated</h5>";
    }else{
-       echo "<center><H5 style='color:red;text-align:center;'>Not Inseted</h5></center>".mysqli_error($conn);
+       echo "<center><H5 style='color:red;text-align:center;'>Not Inserted</h5></center>".mysqli_error($conn);
    }
 }else{
     echo "<H5 style='color:red;text-align:center;'>Password is not Matched with RE-Entered Password</h5>";

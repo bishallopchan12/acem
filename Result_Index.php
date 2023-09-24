@@ -68,7 +68,7 @@
                                 <!-- ========================php====================== -->
                             </h2>
                             <center>
-                                <img class="card-img-top" src="upload/<?php echo $Image; ?>" alt="Card image">
+                                <img class="card-img-top" src="Images/<?php echo $Image; ?>" alt="Card image">
                             </center>
                             <div class="card-body">
                                 <h4 class="card-title" style="text-transform: capitalize;"><?php echo "$FullName"; ?></h4>

@@ -68,7 +68,7 @@ $conn = mysqli_connect($servername, $username, $password, $dbname);
 if(isset($_POST['submit'])){
      $Email=$_POST['Email'];
      $DOB=$_POST['DOB'];
-     $Password=$_POST['Password'];
+     $Password=md5($_POST['Password']);
     
     $select="select * from register where Email='$Email' and Password='$Password'and DOB='$DOB'";
     $run=mysqli_query($conn,$select);
@@ -77,7 +77,7 @@ if(isset($_POST['submit'])){
       $row_user=mysqli_fetch_array($run);
       $dbEmail=$row_user['Email'];
       $dbDOB=$row_user['DOB'];
-      $dbVoted=$row_user['Voted'];
+     $dbVoted=$row_user['Voted'];
       $dbPassword=$row_user['Password'];
 
       if(is_array($row_user)){//$Email==$dbEmail && $Password==$dbPassword

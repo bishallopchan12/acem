@@ -126,7 +126,7 @@
           <tr style="text-transform: capitalize;">
             <td><?php echo $nFullName; ?></td>
             <td><?php echo $nPartyName; ?></td>
-            <td><img src="upload/<?php echo $nImage; ?>" style="width: 100px;height: 100px; border-radius: 50%;"></td>
+            <td><img src="Images/<?php echo $nImage; ?>" style="width: 100px;height: 100px; border-radius: 50%;"></td>
             <td>
               <a href="EditNominee.php?nedit=<?php echo $nFullName; ?>" class="btn btn-primary" title="Edit"><i class="fas fa-pen"></i></a>
               <a href="admintable.php?ndel=<?php echo $nFullName; ?>" class="btn btn-danger" title="Delete"><i class="fas fa-trash-alt"></i></a>
