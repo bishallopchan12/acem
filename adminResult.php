@@ -82,7 +82,7 @@
                         <td><a href="adminResult.php?dcl=<?php echo $PartyName ?>" class="btn btn-primary" title="Declared"><i class="fa fa-bullhorn"></i></a>
                             <a href="adminResult.php?udcl=<?php echo $PartyName ?>" class="btn btn-danger" title="UnDeclared"><i class="fas fa-trash-alt"></i></a>
                         </td>
-                        <!-- <td><a href="result.php?show=<?php //echo $PartyName ?>" class="btn btn-primary" title="Declared"><i class="fa fa-bullhorn"></i></a></td> -->
+                        
                     </tr>
                 <?php }
             }else{
